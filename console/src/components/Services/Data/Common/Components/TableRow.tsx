@@ -118,7 +118,7 @@ export const TableRow: React.FC<TableRowProps> = ({
   return (
     <div className="form-group">
       <label
-        className={`col-sm-3 control-label ${styles.insertBoxLabel}`}
+        className={`control-label ${styles.insertBoxLabel}`}
         title={colName}
       >
         {colName}
